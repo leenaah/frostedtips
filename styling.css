@@ -3,7 +3,7 @@
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
-  background-color: thistle;
+  background-color: rgb(255, 236, 228);
 }
 
 button {
@@ -21,8 +21,16 @@ header {
 }
 .logo {
   cursor: pointer;
-  width: 100px;
-  height: 100px;
+  width: 245px;
+  height: 90px;
+  order: 2;
+  margin-right: 50px;
+}
+nav {
+  order: 1;
+}
+.cta {
+  order: 3;
 }
 li,
 a {
@@ -44,12 +52,15 @@ a {
   transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover {
-  color: coral;
+  color: rgb(239, 136, 130);
 }
 button {
   padding: 9px 25px;
-  background-color: coral;
+  background-color: rgb(239, 136, 130);
   border: none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgb(239, 136, 130, 0.8);
 }
